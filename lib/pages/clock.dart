@@ -5,11 +5,9 @@ class Clock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Clock"),
-      ),
-      body: const Center(
+    return const Scaffold(
+      backgroundColor: Colors.black,
+      body: Center(
         child: Text("Clock"),
       ),
     );
