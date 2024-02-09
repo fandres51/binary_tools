@@ -1,1 +1,51 @@
-<p>clock works!</p>
+<div class="binary-clock-container">
+    <div class="cells">
+        <div class="time-section">
+            <div class="cell-row">
+                <!-- <div class="cell" [class.on]="isActiveH00"></div> -->
+                <!-- <div class="cell" [class.on]="isActiveH01"></div> -->
+                <!-- <div class="cell" [class.on]="isActiveH02"></div> -->
+                <div class="cell" [class.on]="isActiveH03"></div>
+            </div>
+            <div class="cell-row">
+                <div class="cell" [class.on]="isActiveH10"></div>
+                <div class="cell" [class.on]="isActiveH11"></div>
+                <div class="cell" [class.on]="isActiveH12"></div>
+                <div class="cell" [class.on]="isActiveH13"></div>
+            </div>
+        </div>
+        <div class="time-section">
+            <div class="cell-row">
+                <!-- <div class="cell" [class.on]="isActiveM00"></div> -->
+                <!-- <div class="cell" [class.on]="isActiveM01"></div> -->
+                <div class="cell" [class.on]="isActiveM02"></div>
+                <div class="cell" [class.on]="isActiveM03"></div>
+            </div>
+            <div class="cell-row">
+                <div class="cell" [class.on]="isActiveM10"></div>
+                <div class="cell" [class.on]="isActiveM11"></div>
+                <div class="cell" [class.on]="isActiveM12"></div>
+                <div class="cell" [class.on]="isActiveM13"></div>
+            </div>
+        </div>
+        <div class="time-section">
+            <div class="cell-row">
+                <!-- <div class="cell" [class.on]="isActiveS00"></div> -->
+                <!-- <div class="cell" [class.on]="isActiveS01"></div> -->
+                <div class="cell" [class.on]="isActiveS02"></div>
+                <div class="cell" [class.on]="isActiveS03"></div>
+            </div>
+            <div class="cell-row">
+                <div class="cell" [class.on]="isActiveS10"></div>
+                <div class="cell" [class.on]="isActiveS11"></div>
+                <div class="cell" [class.on]="isActiveS12"></div>
+                <div class="cell" [class.on]="isActiveS13"></div>
+            </div>
+        </div>
+    </div>
+    <div class="labels">
+        <div class="label">HH</div>
+        <div class="label">MM</div>
+        <div class="label">SS</div>
+    </div>
+</div>
