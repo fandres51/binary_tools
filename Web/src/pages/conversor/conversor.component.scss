@@ -35,3 +35,15 @@
     font-size: 15px;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .conversor-container {
+        flex-direction: column;
+    }
+
+    .conversor-box-input, .conversor-box-output {
+        width: 98%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
