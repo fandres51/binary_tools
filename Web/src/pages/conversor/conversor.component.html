@@ -1,0 +1,11 @@
+<div class="conversor-container">
+    <div class="conversor-box-input">
+        <textarea [(ngModel)]="inputValue" name="inputValue" id="inputValue" cols="30" rows="10"></textarea>
+    </div>
+    <div class="conversor-button" (click)="convert()">
+        <button class="conversor-button">Convertir</button>
+    </div>
+    <div class="conversor-box-output">
+        <textarea [(ngModel)]="outputValue" name="outputValue" id="outputValue" cols="30" rows="10" readonly></textarea>
+    </div>
+</div>

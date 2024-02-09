@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="calculator-container">
+        <div class="input-container">
+            <input type="text" class="input-field" [(ngModel)]="inputValue" readonly>
+        </div>
+        <div class="clear-button" (click)="clearClick()">C</div>
+    </div>
+    <div class="buttons-container">
+        <div class="buttons-grid">
+            <div class="number-buttons">
+                <div class="number-button" (click)="numberClick('0')">0</div>
+                <div class="number-button" (click)="numberClick('1')">1</div>
+            </div>
+            <div class="operation-buttons">
+                <div class="operation-button" (click)="operationClick('+')">+</div>
+                <div class="operation-button" (click)="operationClick('-')">-</div>
+                <div class="operation-button" (click)="operationClick('*')">*</div>
+                <div class="operation-button" (click)="operationClick('/')">/</div>
+            </div>
+        </div>
+        <div class="equals-button" (click)="equalsClick()">=</div>
+    </div>
+</div>
